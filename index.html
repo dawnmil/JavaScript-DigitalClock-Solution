@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="./prettifyMyClock.css" type="text/css" rel="stylesheet">
+	<!-- Makes a reference to the stylesheet -->
+	<link href="./style/prettifyMyClock.css" type="text/css" rel="stylesheet">
 
-<!-- Makes a reference to myClock.js in the html -->
-<script type="text/javascript" src="myClock.js"></script>
+	<!-- Makes a reference to myClock.js in the html -->
+	<script type="text/javascript" src="js/myClock.js"></script>
 </head>
 
 <!-- When index.html is opened in the browser, our JavaScript startTime() function gets executed-->
-<body onload="startTime()"> 
+<body onload="startMyDigitalClock()"> 
 	
 	<div id="animate-area">
 	
+		<!-- Creates a div with "clock" as the id -->
 		<div id="clock"></div>
 	
 	</div>
