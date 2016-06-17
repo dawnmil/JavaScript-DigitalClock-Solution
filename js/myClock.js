@@ -1,5 +1,5 @@
 function startMyDigitalClock() {
-    var today = new Date();  //Creates a Date object which is preloaded with utility functions
+    var today = new Date();  //Creates a Date object which is preloaded with utility methods
     var currentHours = today.getHours();
     var currentMinutes = today.getMinutes();
     var currentSeconds = today.getSeconds();
