@@ -23,7 +23,7 @@ function meridiemCheck(i) {
 }
 
 function convertToTwelveHourClock(i){
-  if (i == 0) { i=12; }
+  if (i === 0) { i=12; }
   else if (i > 12) { i-=12;}
   
   return i;
